@@ -6,11 +6,11 @@ This repository contains the solutions for a series of exercises from a coding c
 
 The project includes the following files:
 
-- `exercicio1.js`: Contains the solution for Exercise 1.
-- `exercicio2.js`: Contains the solution for Exercise 2.
-- `exercicio3.js`: Contains the solution for Exercise 3.
-- `exercicio4.js`: Contains the solution for Exercise 4.
-- `exercicio5.js`: Contains the solution for Exercise 5.
+- `exercise-01.js`: Contains the solution for Exercise 1.
+- `exercise-02.js`: Contains the solution for Exercise 2.
+- `exercise-03.js`: Contains the solution for Exercise 3.
+- `exercise-04.js`: Contains the solution for Exercise 4.
+- `exercise-05.js`: Contains the solution for Exercise 5.
 
 Each file includes the problem statement along with the implemented solution.
 
@@ -30,7 +30,7 @@ cd target-sistemas
 
 4. Open the desired `.js` file in your preferred code editor and run it using Node.js:
 ```
-node exercicioX.js
+node exercise-XX.js
 ```
 
 ## Contact Information

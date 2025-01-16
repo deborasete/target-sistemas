@@ -3,11 +3,11 @@
 // Imprimir(SOMA);
 // Ao final do processamento, qual será o valor da variável SOMA?
 
-let INDICE = 13, SOMA = 0, K = 0;
+let INDEX = 13, SUM = 0, K = 0;
 
-while (K < INDICE) {
+while (K < INDEX) {
     K = K + 1;
-    SOMA = SOMA + K;
+    SUM = SUM + K;
 }
 
-console.log(SOMA); //91
+console.log(SUM); // 91

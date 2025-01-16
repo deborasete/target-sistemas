@@ -2,24 +2,23 @@
 
 // IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
-function fibonacci(numero) {
+function fibonacci(number) {
     let a = 0, b = 1;
     let fibonacciSequence = [a, b];
     
-    while (b < numero) {
+    while (b < number) {
         let next = a + b;
         a = b;
         b = next;
         fibonacciSequence.push(b);
     }
 
-    if (fibonacciSequence.includes(numero)) {
-        return `O número ${numero} pertence a sequência de Fibonacci.`;
+    if (fibonacciSequence.includes(number)) {
+        return `The number ${number} belongs to the Fibonacci sequence.`;
     } else {
-        return `O número ${numero} não pertence a sequência de Fibonacci.`;
+        return `The number ${number} does not belong to the Fibonacci sequence.`;
     }
 }
 
-
-let numeroInformado = 21;
-console.log(fibonacci(numeroInformado));
+let givenNumber = 21;
+console.log(fibonacci(givenNumber));

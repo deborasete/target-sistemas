@@ -4,13 +4,13 @@
 // a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 // b) Evite usar funções prontas, como, por exemplo, reverse;
 
-function inverterString(str) {
-    let resultado = "";
+function reverseString(str) {
+    let result = "";
     for (let i = str.length - 1; i >= 0; i--) {
-        resultado += str[i];
+        result += str[i];
     }
-    return resultado;
+    return result;
 }
 
-let minhaString = "atsocA eteS arobéD";
-console.log(inverterString(minhaString));
+let myString = "atsocA eteS arobéD";
+console.log(reverseString(myString));
